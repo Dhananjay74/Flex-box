@@ -146,6 +146,9 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+.padding {
+  padding: 60px 32px;
+}
 
 /* header */
 
@@ -169,4 +172,46 @@ body {
 .nav a span {
   vertical-align: middle;
   margin-right: 12px;
+}
+
+/* sidebar */
+
+.sidebar {
+  background-color: #a3caea;
+  padding: 32px;
+  flex: 0 1 30%;
+  align-self: stretch;
+  border-radius: 8px;
+}
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+}
+.sidebar-nav a {
+  text-decoration: none;
+  font-weight: 700;
+  padding: 16px;
+  color: #22396a;
+  border-radius: 4px;
+}
+.sidebar-nav a img {
+  vertical-align: middle;
+  margin-right: 12px;
+}
+.sidebar-nav .active {
+  border: 2px solid #ff7b29;
+  color: #ff7b29;
+}
+
+/* article */
+
+.article {
+  flex: 0 1 65%;
+}
+.article img {
+  width: 100%;
+}
+.article h1 {
+  font-size: 44px;
+  color: #22396a;
 }
